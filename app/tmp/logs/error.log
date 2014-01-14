@@ -1,0 +1,2623 @@
+2013-12-30 04:01:15 Error: [MissingControllerException] Controller class SecurityController could not be found.
+Exception Attributes: array (
+  'class' => 'SecurityController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/security
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 04:01:44 Error: [MissingControllerException] Controller class SecurityController could not be found.
+Exception Attributes: array (
+  'class' => 'SecurityController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/security
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 04:17:38 Error: [MissingActionException] Action SecurityController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SecurityController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/security
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SecurityController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:31:23 Error: [MissingActionException] Action GroomingController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:32:02 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 5]
+2013-12-30 04:32:02 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 04:33:09 Error: [MissingControllerException] Controller class GroomingHistory.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'GroomingHistory.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/groomingHistory.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 04:33:12 Error: [MissingControllerException] Controller class GroomingRegister.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'GroomingRegister.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/groomingRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 04:36:16 Error: [MissingControllerException] Controller class GroomingHistory.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'GroomingHistory.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/groomingHistory.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 04:44:28 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/datepicker.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:44:28 Error: [MissingActionException] Action GroomingController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'js',
+)
+Request URL: /cakephp_admin/grooming/js/bootstrap.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:44:28 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/bootstrap.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:45:09 Error: [MissingActionException] Action GroomingController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'js',
+)
+Request URL: /cakephp_admin/grooming/js/bootstrap.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:45:09 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/datepicker.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:45:09 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/bootstrap.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:45:36 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/datepicker.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:45:36 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/bootstrap.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:45:36 Error: [MissingActionException] Action GroomingController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'js',
+)
+Request URL: /cakephp_admin/grooming/js/bootstrap.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:48:10 Error: [MissingActionException] Action GroomingController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'js',
+)
+Request URL: /cakephp_admin/grooming/js/bootstrap.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:48:10 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/bootstrap.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:48:10 Error: [MissingActionException] Action GroomingController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'css',
+)
+Request URL: /cakephp_admin/grooming/css/datepicker.css
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:49:04 Error: [MissingActionException] Action GroomingController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'js',
+)
+Request URL: /cakephp_admin/grooming/js/bootstrap.js
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:50:02 Error: [MissingActionException] Action GroomingController::groomingRegister.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'groomingRegister.html',
+)
+Request URL: /cakephp_admin/grooming/groomingRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:51:35 Error: [MissingActionException] Action GroomingController::bookGroomingService.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'bookGroomingService.html',
+)
+Request URL: /cakephp_admin/grooming/bookGroomingService.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:52:38 Error: [MissingActionException] Action GroomingController::groomingHistory.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'groomingHistory.html',
+)
+Request URL: /cakephp_admin/grooming/groomingHistory.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:52:41 Error: [MissingActionException] Action GroomingController::groomingRegister.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'groomingRegister.html',
+)
+Request URL: /cakephp_admin/grooming/groomingRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 04:53:13 Error: [MissingActionException] Action GroomingController::groomingRegister.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroomingController',
+  'action' => 'groomingRegister.html',
+)
+Request URL: /cakephp_admin/grooming/groomingRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 05:05:04 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 05:05:18 Error: [MissingActionException] Action ClientController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientController',
+  'action' => 'index',
+)
+Request URL: /cakephp_admin/client
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 05:05:37 Error: [MissingControllerException] Controller class GroomingRegister.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'GroomingRegister.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/groomingRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 05:30:03 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Client/client_list.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Client/client_list.ctp',
+)
+Request URL: /cakephp_admin/client/clientList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 05:49:48 Error: [MissingControllerException] Controller class PetList.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'PetList.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/petList.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 05:50:44 Error: [MissingControllerException] Controller class PetList.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'PetList.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/petList.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 05:50:50 Error: [MissingControllerException] Controller class PetListController could not be found.
+Exception Attributes: array (
+  'class' => 'PetListController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 05:51:02 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Pet/petlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Pet/petlist.ctp',
+)
+Request URL: /cakephp_admin/pet/petlist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PetController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 05:52:18 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Pet/petlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Pet/petlist.ctp',
+)
+Request URL: /cakephp_admin/pet/petlist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PetController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 05:53:16 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Pet/petlist.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Pet/petlist.ctp',
+)
+Request URL: /cakephp_admin/pet/petlist
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PetController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 05:53:35 Error: [MissingActionException] Action PetController::petsRegister.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'PetController',
+  'action' => 'petsRegister.html',
+)
+Request URL: /cakephp_admin/pet/petsRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PetController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 05:53:42 Error: [MissingActionException] Action PetController::petsRegister.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'PetController',
+  'action' => 'petsRegister.html',
+)
+Request URL: /cakephp_admin/pet/petsRegister.html
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PetController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 16:11:48 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 16:12:12 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 16:13:00 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 16:13:04 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client/clientList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 16:13:35 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client/clientList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 16:13:39 Error: [MissingControllerException] Controller class ClientController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/client/clientList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 16:15:05 Error: [MissingControllerException] Controller class PetController could not be found.
+Exception Attributes: array (
+  'class' => 'PetController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/pet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:05:22 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Clients/save_client.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Clients/save_client.ctp',
+)
+Request URL: /cakephp_admin/clients/saveClient
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 17:10:48 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Clients/save_client.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Clients/save_client.ctp',
+)
+Request URL: /cakephp_admin/clients/saveClient
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 17:13:12 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php, line 20]
+2013-12-30 17:13:12 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cakephp_admin/clients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 20, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 01:21:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 01:21:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 01:21:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 01:45:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 01:47:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 01:47:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 01:47:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 17:58:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 17:58:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 17:58:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:30:08 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php, line 3572]
+2014-01-02 18:30:08 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 3572)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 3572, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 3572, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:31:22 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php, line 3572]
+2014-01-02 18:31:22 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 3572)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 3572, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 3572, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 18:32:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:36:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:39:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:39:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:39:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:39:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 18:39:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 19:28:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 9]
+2014-01-02 19:28:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_admin/pets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 9, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 19:29:34 Error: Fatal Error (1): Class 'AppHelper' not found in [/Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/Helper/HtmlHelper.php, line 32]
+2014-01-02 19:29:34 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /cakephp_admin/pets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', '/Applications/M...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', '/Applications/M...', 32, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', '/Applications/M...', 32, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 19:32:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 19:32:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 19:32:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:35:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:36:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:36:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:36:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:37:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:55:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:55:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 18:55:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 19:10:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 19:10:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 19:10:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 19:46:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 19:46:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 19:46:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 20:18:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 20:23:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 20:23:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 20:38:06 Error: [MissingActionException] Action PetsController::savePet() could not be found.
+Exception Attributes: array (
+  'controller' => 'PetsController',
+  'action' => 'savePet',
+)
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-03 20:40:38 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 39]
+2014-01-03 20:40:38 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 20:42:08 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 39]
+2014-01-03 20:42:08 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 20:43:06 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 39]
+2014-01-03 20:43:06 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 20:43:26 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 39]
+2014-01-03 20:43:26 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 39, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 20:45:33 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 48]
+2014-01-03 20:45:33 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 48, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 48, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 20:46:39 Error: Fatal Error (1): Call to a member function create() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 48]
+2014-01-03 20:46:39 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /cakephp_admin/pets/savePet
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 48, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 48, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-03 21:31:36 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:32:09 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:34:44 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:35:25 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:36:25 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:38:38 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:40:12 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Grooming/get_client_by_id.ctp',
+)
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-03 21:47:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.' in 'field list'
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Client), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(666): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(823): DboSource->query('findById', Array, Object(Client))
+#8 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(45): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(45): Client->findById('first', Array)
+#10 [internal function]: GroomingController->getClientById()
+#11 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#12 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-01-03 21:49:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.' in 'field list'
+Request URL: /cakephp_admin/grooming/getClientById
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Client), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(666): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(823): DboSource->query('findById', Array, Object(Client))
+#8 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(45): Model->__call('findById', Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(45): Client->findById('first', Array)
+#10 [internal function]: GroomingController->getClientById()
+#11 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#12 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#14 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-01-03 22:12:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 22:12:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 22:12:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 23:49:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 23:52:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-03 23:52:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 00:16:57 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Pets/asign_pet_to_client.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Pets/asign_pet_to_client.ctp',
+)
+Request URL: /cakephp_admin/pets/asignPetToClient
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-04 15:48:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 15:48:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 15:48:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 16:40:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.pet_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:42:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:42:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.breed_Id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:42:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.breed_Id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:43:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:44:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:53:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.pet_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:53:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.pet_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:53:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.pet_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:53:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.pet_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:53:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DogBreed.pet_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:54:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.dog_breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:54:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.dog_breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:54:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.dog_breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 16:57:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 17:51:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'lorenzo'%' at line 1
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(90): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 17:51:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%lorenzo%' at line 1
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(90): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 17:51:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lorenzo' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(90): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 17:54:02 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Pets/filter_pets.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Pets/filter_pets.ctp',
+)
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-04 18:00:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(97): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 18:04:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.bath_number' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(97): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 18:05:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(100): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 18:05:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(100): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-04 23:44:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-04 23:44:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 01:03:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.breed_id' in 'on clause'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(22): Model->find('all')
+#7 [internal function]: PetsController->petList()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-05 01:06:35 Error: Fatal Error (64): Cannot redeclare Pet::$belongsTo in [/Applications/MAMP/htdocs/cakephp_admin/app/Model/Pet.php, line 78]
+2014-01-05 01:06:35 Error: [FatalErrorException] Cannot redeclare Pet::$belongsTo
+Request URL: /cakephp_admin/pets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 78)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 78, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 78, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-05 01:07:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 01:07:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 01:07:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 04:17:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 04:42:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 04:42:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 06:13:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 06:13:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 06:13:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 07:37:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 07:38:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 07:38:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 17:31:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 17:31:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-05 17:31:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:26:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:26:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:26:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:30:37 Error: Fatal Error (1): Class 'DboSource' not found in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 91]
+2014-01-06 02:30:37 Error: [FatalErrorException] Class 'DboSource' not found
+Request URL: /cakephp_admin/grooming/saveGroomingService
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', '/Applications/M...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-06 02:30:51 Error: Fatal Error (1): Class 'DboSource' not found in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 91]
+2014-01-06 02:30:51 Error: [FatalErrorException] Class 'DboSource' not found
+Request URL: /cakephp_admin/grooming/saveGroomingService
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', '/Applications/M...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-06 02:31:05 Error: Fatal Error (1): Class 'DboSource' not found in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 91]
+2014-01-06 02:31:05 Error: [FatalErrorException] Class 'DboSource' not found
+Request URL: /cakephp_admin/grooming/saveGroomingService
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', '/Applications/M...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-06 02:33:01 Error: Fatal Error (1): Class 'DboSource' not found in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 91]
+2014-01-06 02:33:01 Error: [FatalErrorException] Class 'DboSource' not found
+Request URL: /cakephp_admin/grooming/saveGroomingService
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Class 'DboSourc...', '/Applications/M...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Class 'DboSourc...', '/Applications/M...', 91, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-06 02:33:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:33:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:37:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 02:37:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 12:29:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 12:31:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(143): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:31:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(143): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:31:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(143): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:34:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(143): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:34:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(143): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:41:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ClientsPets.name' in 'on clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(153): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:41:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'on clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(153): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:46:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(146): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:46:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(146): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:47:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Client.name' in 'where clause'
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Pet`.`i...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Pet`.`i...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Pet`.`i...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Pet), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(146): Model->find('all', Array)
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 12:59:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 13:47:54 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ON p.id=cp.pet_id
+                        AND cp.client_id=c.id
+                ' at line 3
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('Select * from p...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('Select * from p...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(588): DboSource->fetchAll('Select * from p...')
+#4 [internal function]: DboSource->query('Select * from p...')
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3792): call_user_func_array(Array, Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(147): Model->query('Select * from p...')
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 13:49:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%rodrigo%' at line 6
+Request URL: /cakephp_admin/pets/filterPets
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('Select * from p...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('Select * from p...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(588): DboSource->fetchAll('Select * from p...')
+#4 [internal function]: DboSource->query('Select * from p...')
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3792): call_user_func_array(Array, Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php(148): Model->query('Select * from p...')
+#7 [internal function]: PetsController->filterPets()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(PetsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-06 15:30:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 15:31:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 15:31:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 15:44:57 Error: Fatal Error (4): syntax error, unexpected ';' in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/PetsController.php, line 24]
+2014-01-06 15:44:57 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cakephp_admin/pets/petList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 24, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 24, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-06 15:59:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 17:16:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 17:23:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 17:23:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 17:40:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 17:54:33 Error: [MissingActionException] Action PetsController::paginateAction();() could not be found.
+Exception Attributes: array (
+  'controller' => 'PetsController',
+  'action' => 'paginateAction();',
+)
+Request URL: /cakephp_admin/pets/paginateAction();
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-06 17:57:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 18:19:24 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/cakephp_admin/app/View/Pets/get_ajax_paginated_list.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/cakephp_admin/app/View/Pets/get_ajax_paginated_list.ctp',
+)
+Request URL: /cakephp_admin/pets/getAjaxPaginatedList
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/View/View.php(479): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(1046): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(215): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-01-06 19:55:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 23:11:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-06 23:31:59 Error: [MissingActionException] Action PetsController::getPetMedicalIssues() could not be found.
+Exception Attributes: array (
+  'controller' => 'PetsController',
+  'action' => 'getPetMedicalIssues',
+)
+Request URL: /cakephp_admin/pets/getPetMedicalIssues
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(PetsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-01-06 23:36:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 00:37:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.client_id' in 'where clause'
+Request URL: /cakephp_admin/clients/filterClients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Client`...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Client), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php(90): Model->find('all', Array)
+#7 [internal function]: ClientsController->filterClients()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-07 00:37:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.client_id' in 'where clause'
+Request URL: /cakephp_admin/clients/filterClients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Client`...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Client), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php(90): Model->find('all', Array)
+#7 [internal function]: ClientsController->filterClients()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-07 00:37:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Pet.client_id' in 'where clause'
+Request URL: /cakephp_admin/clients/filterClients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Client`...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Client`...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Client`...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Client), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php(90): Model->find('all', Array)
+#7 [internal function]: ClientsController->filterClients()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(ClientsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-07 00:41:05 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php, line 95]
+2014-01-07 00:41:05 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_admin/clients/filterClients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 95)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 95, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 95, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-07 00:41:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php, line 95]
+2014-01-07 00:41:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_admin/clients/filterClients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 95)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 95, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 95, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-07 00:41:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/ClientsController.php, line 95]
+2014-01-07 00:41:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_admin/clients/filterClients
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 95)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 95, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 95, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-07 00:42:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 00:42:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 01:38:42 Error: Fatal Error (4): syntax error, unexpected ''OR'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 23]
+2014-01-07 01:38:42 Error: [FatalErrorException] syntax error, unexpected ''OR'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 23, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 23, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-07 01:41:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Groomingbooking_pet_arrived' in 'where clause'
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT `Groomin...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT `Groomin...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1239): DboSource->fetchAll('SELECT `Groomin...', false)
+#4 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3309): DboSource->read(Object(Grooming), Array)
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3280): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(30): Model->find('all', Array)
+#7 [internal function]: GroomingController->index()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-07 01:41:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 16:20:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 16:21:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 16:21:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 17:19:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 42]
+2014-01-07 17:19:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_admin/grooming/history
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 42, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 42, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-07 17:24:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:33:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:33:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:33:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:44:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:44:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:44:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:53:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:54:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:56:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 22:57:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 23:09:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by Grooming.pet_arrival)' at line 9
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT * from g...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT * from g...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(588): DboSource->fetchAll('SELECT * from g...')
+#4 [internal function]: DboSource->query('SELECT * from g...')
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3792): call_user_func_array(Array, Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(26): Model->query('SELECT * from g...')
+#7 [internal function]: GroomingController->index()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-07 23:10:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY Grooming.pet_arrival ASC)' at line 9
+Request URL: /cakephp_admin/grooming
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('SELECT * from g...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(750): DboSource->execute('SELECT * from g...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(588): DboSource->fetchAll('SELECT * from g...')
+#4 [internal function]: DboSource->query('SELECT * from g...')
+#5 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(3792): call_user_func_array(Array, Array)
+#6 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(26): Model->query('SELECT * from g...')
+#7 [internal function]: GroomingController->index()
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#9 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-01-07 23:48:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-07 23:48:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-08 00:42:46 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php, line 308]
+2014-01-08 00:42:46 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /cakephp_admin/grooming/history
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Error/ErrorHandler.php(218): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 308)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 308, Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1057): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 308, Array)
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Core/App.php(1023): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-08 00:43:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-09 22:50:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-09 23:28:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-09 23:28:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 20:57:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 20:57:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 20:57:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 22:14:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 22:33:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2.png
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 22:33:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_admin/css/select2-spinner.gif
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-11 22:59:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pyg_admin`.`grooming`, CONSTRAINT `grooming_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`))
+Request URL: /cakephp_admin/grooming/bookGroomingService
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('INSERT INTO `py...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1150): DboSource->execute('INSERT INTO `py...')
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(2061): DboSource->create(Object(Grooming), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(464): Model->save(Array)
+#5 [internal function]: GroomingController->bookGroomingService()
+#6 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#7 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-01-11 22:59:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pyg_admin`.`grooming`, CONSTRAINT `grooming_ibfk_2` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`))
+Request URL: /cakephp_admin/grooming/bookGroomingService
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(491): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(452): DboSource->_execute('INSERT INTO `py...', Array)
+#2 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Datasource/DboSource.php(1150): DboSource->execute('INSERT INTO `py...')
+#3 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Model/Model.php(2061): DboSource->create(Object(Grooming), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp_admin/app/Controller/GroomingController.php(464): Model->save(Array)
+#5 [internal function]: GroomingController->bookGroomingService()
+#6 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Controller/Controller.php(515): ReflectionMethod->invokeArgs(Object(GroomingController), Array)
+#7 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(206): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/cakephp_admin/lib/Cake/Routing/Dispatcher.php(179): Dispatcher->_invoke(Object(GroomingController), Object(CakeRequest), Object(CakeResponse))
+#9 /Applications/MAMP/htdocs/cakephp_admin/app/webroot/index.php(120): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
