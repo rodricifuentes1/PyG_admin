@@ -22,7 +22,7 @@ class PetsController extends AppController
         $pets_number = $this->Pet->find('count');
 
         $current_page = 1;
-        $max_per_page = 3;
+        $max_per_page = 20;
         $total_pages = $this->getNumberOfPages($pets_number,$max_per_page);
         
         $pets = $this->getPaginatedList($max_per_page, $current_page);

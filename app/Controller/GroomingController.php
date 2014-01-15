@@ -38,7 +38,7 @@ class GroomingController extends AppController
         $baths_number = $this->Grooming->find('count');
 
         $current_page = 1;
-        $max_per_page = 15;
+        $max_per_page = 20;
         $total_pages = $this->getNumberOfPages($baths_number, $max_per_page);
 
         $baths = $this->getPaginatedList($max_per_page, $current_page);

@@ -19,7 +19,7 @@ class ClientsController extends AppController
         $clients_number = $this->Client->find('count');
         
         $current_page = 1;
-        $max_per_page = 1;
+        $max_per_page = 20;
         $total_pages = $this->getNumberOfPages($clients_number,$max_per_page);
         
         $clients = $this->getPaginatedList($max_per_page, $current_page);
